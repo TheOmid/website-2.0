@@ -9,6 +9,7 @@ module.exports = {
        'button': '#ECC259',
        'spotify': '7ab800',
       }),
+      
       textColor: {
         'primary': '#212222',
         'secondary': '#8A8769',
@@ -17,6 +18,10 @@ module.exports = {
         'github': '#333',
         'twitter': '#55acee',
         'spotify': '7ab800',
+      },
+
+      borderRadius: {
+        'custom': '20px',
       }
   },
   variants: {
