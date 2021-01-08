@@ -18,19 +18,19 @@ const Image = () => {
   const data = useStaticQuery(graphql`query {
       placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
-          fixed(width: 270, height: 270) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 300, maxHeight: 300) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   `)
 
-  if (!data?.placeholderImage?.childImageSharp?.fixed) {
+  if (!data?.placeholderImage?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
-  return <StyledImg fixed={data.placeholderImage.childImageSharp.fixed} alt="Profile Pic"/>
+  return <StyledImg fluid={data.placeholderImage.childImageSharp.fluid} alt="Profile Pic"/>
 
 }
 

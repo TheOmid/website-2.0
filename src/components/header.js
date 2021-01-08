@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
         </Link>
         <ul class="float-right align-middle">
           <ListLink to="/">Home</ListLink>
-          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/about/">About Me</ListLink>
           <ListLink to="/projects/">Projects</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
         </ul>
