@@ -11,7 +11,9 @@ const SecondPage = () => (
     <SEO title="About Me" />
     <h1 class="text-primary text-4xl md:text-6xl text-left md:text-center px-2 mt-10 mb-10 tracking-tight">About Me.</h1>
     <div class="flex flex-col md:flex-row justify-center">
-      <div class="w-full"><Image /></div>
+      <div class="w-full">
+        <Image />
+      </div>
       <p class="float-right md:pl-4 max-w-screen-sm my-2 md:mx-4">Hello, I'm Omid Shahidi. I am a sophomore studying 
       Computer Science and Data Science at the University of Michigan-College of Engineering. Outside of school, I am always trying to learn new things, and to explore different hobbies. 
       Right now, I am learning more about ML, backend, and APIs (<a class="underline"  rel="noreferrer" target="_blank" href="https://github.com/TheOmid">github</a>). I am watching countless hours on YouTube about Sound Design, Music Production, and Audio Engineering. 

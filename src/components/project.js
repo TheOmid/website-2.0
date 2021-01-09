@@ -6,13 +6,33 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 export default function Project(props) {
     return (
-            <div class="flex flex-row bg-footer rounded-custom">
-                <div class="w-1/5"><Image /></div>
-                <div class="flex justify-center flex-col pl-2">
-                <div><FontAwesomeIcon icon={faLink}/></div>
-                <div><FontAwesomeIcon icon={faGithub}/></div>
+        <div class="flex justify-center">
+            <div class="flex flex-col md:flex-row bg-footer rounded-custom w-5/7">
+                <div class="w-full">
+                    <Image />
                 </div>
-                <div class="float-left pl-2 max-w-screen-sm my-1 md:mx-4"><p>project description</p></div>
-            </div>
+               <div class="flex justify-center">
+                <div class="flex justify-center flex-row md:flex-col pl-2 max-w-min">
+                    <div class="mr-2 hover:text-secondary">
+                        <a rel="noreferrer" target="_blank" href={props.link}>
+                            <FontAwesomeIcon icon={faLink}/>
+                        </a>
+                    </div>
+                    <div class="mr-2 hover:text-secondary">
+                        <a rel="noreferrer" target="_blank" href={props.githubLink}>
+                            <FontAwesomeIcon icon={faGithub}/>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                    <div class="float-left md:pl-2 my-1 mx-1 py-1 px-1 relative flex flex-col">
+                        <p class="font-bold mb-auto">{props.title}</p>
+                        <br></br>
+                        <p>{props.description}</p>
+                        <br></br>
+                        <div class="mt-auto pt-2"><span class="font-bold">Tech: </span><span>{props.tech}</span></div>
+                    </div>
+                </div>
+        </div>
     )
   }
