@@ -4,4 +4,4 @@
 
 Decided to rewrite my personal website in GatsbyJS and TailwindCSS to learn more about front-end tech🚀
 
-Future goals: Finish project component and page Add Resume Finish blog and blog post component Optimize to deploy to Netlify Make wave animation faster
+This is far from a perfect website. If you have any feedback, please reach out to me: omidsh@umich.edu
