@@ -20,7 +20,7 @@ const SecondPage = () => (
       I host my podcast, <a class="italic underline" rel="noreferrer" target="_blank" href="https://anchor.fm/tat-podcast">Thoughts about Thoughts</a>. Check it out! Each month, I have a 
       conversation with my awesome guests about their life stories revolving around a topic related to personal growth and philosphy. I enjoy reading about philosphy, and I write about
       it in my <Link class="underline" to="/blog/">blog</Link> (coming soon!). My biggest dream is to climb many mountains, and complete the <a class="underline" rel="noreferrer" target="_blank" href="https://explorersgrandslam.com/">Explorers Grand Slam</a> Challenge.
-      My life goal is to become a teacher or mentor for someone and inspire them like how my idol, Marcus Aurelius, inspires me everyday.
+      My life goal is to become a teacher or mentor for someone. If you like to chat use the <Link class="underline" to="/contact/">contact page</Link>.
       <br></br>
       <br></br>
       <span class="font-bold">tl;dr</span> Checkout what I am up to right now!</p>
