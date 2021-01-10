@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image"
 import styled from "styled-components"
 
@@ -14,25 +14,39 @@ import styled from "styled-components"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-const Image = () => {
-  const data = useStaticQuery(graphql`query {
-      placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 270, maxHeight: 270) {
-            ...GatsbyImageSharpFluid
+ //credit: https://stackoverflow.com/a/56508865
+const Image = props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        images: allFile {
+          edges {
+            node {
+              relativePath
+              name
+              childImageSharp {
+                fluid(maxWidth: 270, maxHeight: 270) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
-    }
-  `)
+    `}
+    render={data => {
+      const image = data.images.edges.find(n => {
+        return n.node.relativePath.includes(props.filename);
+      });
+      if (!image) {
+        return <div>Image not found</div>;
+      }
 
-  if (!data?.placeholderImage?.childImageSharp?.fluid) {
-    return <div>Picture not found</div>
-  }
-
-  return <StyledImg fluid={data.placeholderImage.childImageSharp.fluid} alt="Profile Pic"/>
-
-}
+      //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
+      return <StyledImg alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+    }}
+  />
+);
 
 const StyledImg=styled(Img)` 
   border-radius: 20px;

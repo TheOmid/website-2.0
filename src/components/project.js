@@ -7,9 +7,9 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons";
 export default function Project(props) {
     return (
         <div class="flex justify-center">
-            <div class="flex flex-col md:flex-row bg-footer rounded-custom w-5/7">
-                <div class="w-full">
-                    <Image />
+            <div class="flex flex-col md:flex-row bg-footer rounded-custom w-5/7 my-6 mx-2">
+                <div style={{ maxWidth: `220.76px` }} class="w-full my-2 mx-2">
+                    <Image alt={props.alt} filename={props.filename}/>
                 </div>
                <div class="flex justify-center">
                 <div class="flex justify-center flex-row md:flex-col pl-2 max-w-min">

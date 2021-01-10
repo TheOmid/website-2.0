@@ -12,7 +12,7 @@ const SecondPage = () => (
     <h1 class="text-primary text-4xl md:text-6xl text-left md:text-center px-2 mt-10 mb-10 tracking-tight">About Me.</h1>
     <div class="flex flex-col md:flex-row justify-center">
       <div class="w-full">
-        <Image />
+        <Image alt="Profile Pic" filename="profile.jpg"/>
       </div>
       <p class="float-right md:pl-4 max-w-screen-sm my-2 md:mx-4">Hello, I'm Omid Shahidi. I am a sophomore studying 
       Computer Science and Data Science at the University of Michigan-College of Engineering. Outside of school, I am always trying to learn new things, and to explore different hobbies. 

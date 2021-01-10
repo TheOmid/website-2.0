@@ -44,23 +44,23 @@ const Layout = ({ children }) => {
 
       <div class="flex justify-center items-center mb-2">
         <a class="hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="https://linkedin.com/in/omid-shahidi">
-          <FontAwesomeIcon icon={faLinkedinIn}/>
+          <FontAwesomeIcon icon={faLinkedinIn} size="lg"/>
         </a>
 
       <a class="hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="https://twitter.com/u_omid">
-        <FontAwesomeIcon icon={faTwitter}/>
+        <FontAwesomeIcon icon={faTwitter} size="lg"/>
       </a>
 
       <a class="hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="https://github.com/TheOmid">
-        <FontAwesomeIcon icon={faGithub}/>
+        <FontAwesomeIcon icon={faGithub} size="lg"/>
       </a>
 
       <a class="hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="https://open.spotify.com/user/22fgjchkktikjz2zpeg62uydq?si=WpA5Qsk9S4GJrzcTHihAeQ">
-        <FontAwesomeIcon icon={faSpotify}/>
+        <FontAwesomeIcon icon={faSpotify} size="lg"/>
       </a>
 
       <a class="hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="mailto: omidsh@umich.edu">
-        <FontAwesomeIcon icon={faEnvelope}/>
+        <FontAwesomeIcon icon={faEnvelope} size="lg"/>
       </a>
       </div>
 

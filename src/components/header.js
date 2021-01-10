@@ -11,7 +11,7 @@ const ListLink = props => (
 const Header = ({ siteTitle }) => (
   <header class="my-0 mx-auto max-w-5xl py-6 px-4">
         <Link to="/">
-          <span class="text-gold font-bold text-xl">{siteTitle}</span>
+          <span class="text-gold font-bold text-xl text-center">{siteTitle}</span>
         </Link>
         <ul class="float-right align-middle">
           <ListLink to="/">Home</ListLink>
