@@ -9,7 +9,7 @@ const ListLink = props => (
 )
 
 const Header = ({ siteTitle }) => (
-  <header class="my-0 mx-auto max-w-5xl py-6 px-4 text-center md:text-justify">
+  <header class="my-0 mx-auto max-w-5xl py-4 px-4 text-center md:text-justify">
         <Link to="/">
           <span class="text-gold font-bold text-2xl">{siteTitle}</span>
         </Link>
