@@ -57,7 +57,7 @@ const ContactPage = () => (
       </div>
     </div>
     <div class="mt-5 md:mt-0 md:col-span-2">
-      <form class="contact-form" netlify-honeypot="bot-field" action="#" enctype="application/x-www-form-urlencoded" method="POST" data-netlify="true" name="contact">
+      <form class="contact-form" netlify-honeypot="bot-field" enctype="application/x-www-form-urlencoded" method="POST" data-netlify="true" name="contact">
         <div class="shadow overflow-hidden sm:rounded-md">
           <div class="px-4 py-5 bg-footer sm:p-6">
             <div class="grid grid-cols-6 gap-6">
