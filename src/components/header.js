@@ -3,22 +3,18 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const ListLink = props => (
-  <li class="text-primary inline-block align-middle md:ml-8 hover:text-secondary">
+  <li class="text-primary inline-block align-middle ml-3 md:ml-8 hover:text-secondary text-lg md:text-base">
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
 
 const Header = ({ siteTitle }) => (
-  <header class="my-0 mx-auto max-w-5xl py-6 px-4">
-           <label for="menu-toggle" class="cursor-pointer md:hidden block float-right align-middle">
-             <svg class="fill-current text-gold" xmlns="http://www.w3.org/2000/svg" width="24" height="26.8" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
-             <input class="hidden" type="checkbox" id="menu-toggle" />
-           </label>
+  <header class="my-0 mx-auto max-w-5xl py-6 px-4 text-center md:text-justify">
         <Link to="/">
-          <span class="text-gold font-bold text-xl">{siteTitle}</span>
+          <span class="text-gold font-bold text-2xl">{siteTitle}</span>
         </Link>
         
-        <ul class="float-right">
+        <ul class="flex justify-center md:block md:float-right flex-wrap mt-4 md:mt-0">
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About Me</ListLink>
           <ListLink to="/projects/">Projects</ListLink>
