@@ -8,7 +8,7 @@ const ProjectsPage = () => (
     <SEO title="Projects" />
     <h1 class="text-primary text-4xl md:text-6xl text-center px-2 mt-10 mb-10 tracking-tight">Projects.</h1>
 
-    <h2 class="text-primary text-2xl md:text-4xl text-center px-2 mt-10 mb-10 tracking-tight">I am working new projects, for now check these out!</h2>
+    <h2 class="text-primary text-2xl md:text-4xl text-center px-2 mt-10 mb-10 tracking-tight">I am working on new projects, for now check these out!</h2>
     <div class="flex justify-center flex-col">
       <div id="wrapper">
         <Project title="Personal Website 2.0"
