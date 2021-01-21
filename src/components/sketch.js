@@ -12,7 +12,7 @@ export default function Sketch(p5) {
         if(count < 300){
           p5.beginShape();
           p5.stroke(236, 194, 89, 100);
-          for(let x = 0; x < p5.width; x+=10){
+          for(let x = 0; x < p5.width; x+=1){
             p5.curveVertex(x, p5.map(p5.noise((x) * 0.007, p5.frameCount * 0.007), 0, 1, 0, p5.height));
           }
           p5.endShape();
