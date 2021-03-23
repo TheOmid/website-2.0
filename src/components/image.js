@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
@@ -14,7 +14,7 @@ import styled from "styled-components"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
- //credit: https://stackoverflow.com/a/56508865
+//credit: https://stackoverflow.com/a/56508865
 const Image = props => (
   <StaticQuery
     query={graphql`
@@ -36,19 +36,21 @@ const Image = props => (
     `}
     render={data => {
       const image = data.images.edges.find(n => {
-        return n.node.relativePath.includes(props.filename);
-      });
+        return n.node.relativePath.includes(props.filename)
+      })
       if (!image) {
-        return <div>Image not found</div>;
+        return <div>Image not found</div>
       }
 
       //const imageSizes = image.node.childImageSharp.sizes; sizes={imageSizes}
-      return <StyledImg alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+      return (
+        <StyledImg alt={props.alt} fluid={image.node.childImageSharp.fluid} />
+      )
     }}
   />
-);
+)
 
-const StyledImg=styled(Img)` 
+const StyledImg = styled(Img)`
   border-radius: 20px;
 `
 
