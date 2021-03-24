@@ -11,7 +11,7 @@ export default function Activity(props) {
         aria-hidden={props.symbol ? "false" : "true"}
       >
         {props.symbol}
-        <span class="pl-2 text-md tracking-tighter">
+        <span class="pl-2 text-md">
           {props.text}
           <Link to={props.to}>
             {" "}
