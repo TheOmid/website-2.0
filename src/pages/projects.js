@@ -6,11 +6,11 @@ import Project from "../components/project"
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    <h1 class="text-primary text-4xl md:text-6xl text-center px-2 mt-10 mb-10 tracking-tight">
+    <h1 class="text-primary text-4xl md:text-6xl text-center px-2 my-8 tracking-tight">
       Projects.
     </h1>
 
-    <h2 class="text-primary text-2xl md:text-4xl text-center px-2 mt-10 mb-10 tracking-tight">
+    <h2 class="text-primary text-2xl md:text-4xl text-center px-2 my-8 tracking-tight">
       I'm working on new projects, for now check these out!
     </h2>
     <div class="flex justify-center flex-col">

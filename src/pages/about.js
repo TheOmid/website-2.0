@@ -16,12 +16,16 @@ const About = () => (
       <div class="w-full">
         <Image alt="Profile Pic" filename="profile.jpg" />
       </div>
-      <p class="float-right md:pl-4 max-w-screen-sm my-2 md:mx-4">
+      <p class="float-right md:pl-4 max-w-screen-sm my-1 md:mx-2 text-justify md:tracking-tight tracking-tighter">
         Hello, I'm Omid Shahidi. I am a sophomore studying Computer Science and
-        Data Science at the University of Michigan-College of Engineering.
-        Outside of school, I am always trying to learn new things, and to
-        explore different hobbies. Right now, I am learning more about ML,
-        backend, and APIs (
+        Data Science (with a minor in Philosophy) at the University of
+        Michigan-College of Engineering. As an aspiring engineer, I love working
+        with multidisciplinary teams, and I believe my biggest strength lies in
+        collaboration with engineers, artists, and designers. Right now, my
+        research team and I are aiming to turn sleep data into ambient,
+        electronic music! Outside of school, I am always trying to learn new
+        things, and to explore different hobbies. Right now, I am learning more
+        about ML, Algorithms, and APIs (
         <a
           class="underline"
           rel="noreferrer"
@@ -64,7 +68,8 @@ const About = () => (
         </Link>
         .<br></br>
         <br></br>
-        <span class="font-bold">tl;dr</span> Checkout what I am up to right now!
+        <span class="font-bold">tl;dr</span> cs. code. philosophy. learning.
+        music. mountaineering. mentorship. inspire.
       </p>
     </div>
 
@@ -88,7 +93,10 @@ const About = () => (
       symbol="📗"
       text="Reading the Meditations by Marcus Aurelius"
     ></Activity>
-    <Activity symbol="🎹" text="Learning to make Electronic music"></Activity>
+    <Activity
+      symbol="🎹"
+      text="Learning to make Electronic music and DJ"
+    ></Activity>
   </Layout>
 )
 
