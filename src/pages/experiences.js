@@ -32,7 +32,7 @@ const MPortfolio = () => (
           college life and academics. This has been an incredible leadership
           experience, and I have met many inspiring, ambituous individuals. I
           hope I can stay involved in MRADS however I can in the future. In
-          short, I have learned about communication, importance of inclusivity,
+          short, I have learned about communication, cultural awareness,
           and leadership.
         </div>
       </div>
