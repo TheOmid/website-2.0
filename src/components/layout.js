@@ -88,15 +88,7 @@ const Layout = ({ children }) => {
         </div>
 
         <div>
-          © Omid Shahidi, {new Date().getFullYear()}. Built with{" "}
-          <a rel="noreferrer" target="_blank" href="https://gatsbyjs.com">
-            Gatsby
-          </a>{" "}
-          +
-          <a rel="noreferrer" target="_blank" href="https://tailwindcss.com/">
-            {" "}
-            TailwindCSS
-          </a>
+          © Omid Shahidi, {new Date().getFullYear()}.
         </div>
       </footer>
     </div>
