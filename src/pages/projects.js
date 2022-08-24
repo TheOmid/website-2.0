@@ -11,7 +11,7 @@ const ProjectsPage = () => (
     </h1>
 
     <h2 class="text-primary text-2xl md:text-4xl text-center px-2 my-8 tracking-tight">
-      I'm working on new projects, for now check these out!
+      I'm working on contributing to open-source, but these are the first two personal projects I did.
     </h2>
     <div class="flex justify-center flex-col">
       <div id="wrapper">
