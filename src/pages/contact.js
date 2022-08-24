@@ -21,7 +21,7 @@ const ContactPage = () => (
 
 {/* Form Template by Tailwind UI */}
 
-<p class="text-primary text-xl md:text-3xl my-8 mx-2 px-2 py-2">You can stalk me on LinkedIn, like my tweets, roast me for my code, jam to my playlists, or shoot me an email.</p>
+<p class="text-primary text-xl md:text-3xl my-8 mx-2 px-2 py-2">You can stalk me on LinkedIn, like my tweets, roast my code, jam to my playlists, or shoot me an email.</p>
 
 {/* <div class="flex justify-center items-center mt-4 mb-6">
 <a class="text-linkedin hover:text-secondary ml-6" rel="noreferrer" target="_blank" href="https://linkedin.com/in/omid-shahidi">
