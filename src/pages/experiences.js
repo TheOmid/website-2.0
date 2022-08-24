@@ -14,29 +14,81 @@ const MPortfolio = () => (
     </h2>
 
     <div class="flex flex-col justify-center">
-      <div class="mx-4 my-1">
+      <div>
+        <div class="font-bold text-center px-1 py-1">
+          Software Engineering Intern @ Cloudera
+        </div>
+        <div class="text-justify tracking-tight px-2 py-2">
+          hmm...nothing here yet
+        </div>
+      </div>
+
+      <div>
+        <div class="font-bold text-center px-1 py-1">
+          Instructional Aide for EECS 280 (Intro to Programming and Data
+          Structures) and EECS 482 (Intro to Operating Systems)
+        </div>
+        <div class="text-justify tracking-tight px-2 py-2">
+          hmm...nothing here yet
+        </div>
+      </div>
+
+      <div>
+        <div class="font-bold text-center px-1 py-1">
+          Audio Producer for Michigan Daily
+        </div>
+        <div class="text-justify tracking-tight px-2 py-2">
+          hmm...nothing here yet
+        </div>
+      </div>
+
+      <div>
+        <div class="font-bold text-center px-1 py-1">
+          Software Engineering Intern @ Learning A-Z
+        </div>
+        <div class="text-justify tracking-tight px-2 py-2">
+          hmm...nothing here yet
+        </div>
+      </div>
+
+      <div>
+        <div class="font-bold text-center px-1 py-1">
+          Software Developer @ UARTS FEAST
+        </div>
+        <div class="text-justify tracking-tight px-2 py-2">
+          I worked as a Software Developer on a team of somnologists from Mayo
+          Clinic, electronic music producers, and engineers. The goal of our
+          project was to transform data obtained from sleeping (sleep data) into
+          ambient, techno music! While I cannot fully disclose this project, we
+          used 9 data streams as different parameters (e.g. EQ) to synthesize
+          sounds and pre-made melodies. If something is off, for instance oxygen
+          levels drop, there will be a dissonance in music, helping the
+          somnologists understand the possibility of sleep apnea. Also, it's
+          just creative, fun, and artistic!
+        </div>
+      </div>
+      <div>
         <div class="font-bold text-center px-1 py-1">
           Michigan Research and Discovery Scholars (MRADS)
         </div>
         <div class="text-justify tracking-tight px-2 py-2">
-          I have been involved in MRADS for two years now, and it has been the
-          best decision I have made in college so far. MRADS has helped me by
-          providing resources, mentors and advisors to get involved in research
-          during my first year. More importantly, I found many loyal, supportive
-          friends through MRADS. We have gone through ups and downs of college
-          together for two years, and I cannot imagine my college experiences
-          without my MRADS friends. I was living with people from many different
-          walks of life in my dorm everyday, and I am glad we were able to
-          create a welcoming, inclusive community. As a sophomore, I am a
-          sophomore leader in the community, and I help first-years to adjust to
-          college life and academics. This has been an incredible leadership
-          experience, and I have met many inspiring, ambituous individuals. I
-          hope I can stay involved in MRADS however I can in the future. In
-          short, I have learned about communication, cultural awareness,
-          and leadership.
+          I was involved in MRADS for two years now, and it has been the best
+          decision I have made in college so far. MRADS helped me by providing
+          resources, mentors and advisors to get involved in research during my
+          first year. More importantly, I found many loyal, supportive friends
+          through MRADS. We have gone through ups and downs of college together
+          for two years, and I cannot imagine my college experiences without my
+          MRADS friends. I was living with people from many different walks of
+          life in my dorm everyday, and I am glad we were able to create a
+          welcoming, inclusive community. I was a sophomore leader in the
+          community, and I help first-years to adjust to college life and
+          academics. This was an incredible leadership experience, and I met
+          many inspiring, ambitious individuals. I hope I can stay involved in
+          MRADS however I can in the future. In short, I have learned about
+          communication, cultural awareness, and leadership.
         </div>
       </div>
-      <div class="mx-4 my-1">
+      <div>
         <div class="font-bold text-center px-1 py-1">
           MProduct (Michigan Product Management Organization)
         </div>
@@ -52,7 +104,7 @@ const MPortfolio = () => (
           college and career advice.
         </div>
       </div>
-      <div class="mx-4 my-1">
+      <div>
         <div class="font-bold text-center px-1 py-1">
           Research Assistant @ Taubman College of Architecture
         </div>
@@ -75,28 +127,15 @@ const MPortfolio = () => (
           and Urban Planning at the University of Michigan.
         </div>
       </div>
-
-      <div class="mx-4 my-1">
-        <div class="font-bold text-center px-1 py-1">
-          Software Developer @ UARTS FEAST
-        </div>
-        <div class="text-justify tracking-tight px-2 py-2">
-          Currently, I am working as a Software Developer on a team of
-          somnologists, electronic music producers, and engineers. The goal of
-          our project is to transform data obtained from sleeping into techno
-          music.
-        </div>
-      </div>
-
-      <div class="mx-4 my-1">
+      <div>
         <div class="font-bold text-center px-1 py-1">
           Michigan Intercollegiate Polo Club
         </div>
         <div class="text-justify tracking-tight px-2 py-2">
           I play Polo! Michigan polo club has been a fun experience that was cut
-          short due to the pandemic unfortunately. I look foward to
-          learning/playing polo once we are back on campus. Not only it has been
-          a good time, but I also have learned teamwork, resilience, and
+          short due to the pandemic unfortunately. I look forward to
+          learning/playing polo after college when I can afford it... Not only
+          it was a good time, but I also have learned teamwork, resilience, and
           consistency.
         </div>
       </div>
