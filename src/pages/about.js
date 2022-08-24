@@ -17,19 +17,14 @@ const About = () => (
         <Image alt="Profile Pic" filename="profile.jpg" />
       </div>
       <p class="float-right md:pl-4 max-w-screen-sm my-1 md:mx-2 text-justify md:tracking-tight tracking-tighter">
-        Hello, I'm Omid Shahidi. I am a junior studying Computer Science and
-        Data Science (with a minor in Philosophy) at the University of
-        Michigan-College of Engineering. As an aspiring engineer, I love working
-        with multidisciplinary teams, and I believe my biggest strength lies in
-        collaboration with engineers, artists, and designers. Right now, my
-        research team and I are aiming to turn sleep data into ambient,
-        electronic music! Outside of school, I am always trying to learn new
-        things, and to explore different hobbies. Right now, I am very interested
-        in Operating Systems, Distributed Systems, and Cloud Computing.  
-
-        I am watching countless hours of Ted Talks on YouTube.
-        
-        Once upon a time, I hosted a podcast,{" "}
+        Hello, I'm Omid Shahidi. I am a rising senior studying Computer Science
+        (with a minor in Philosophy) at the University of Michigan. As an
+        aspiring engineer, I love working with multidisciplinary teams, and I
+        believe my biggest strengths lie in collaboration with engineers,
+        artists, and designers and in actively participating in clear,
+        transparent communication. I am very interested in Distributed Systems
+        and more broadly, systems with a focus on partition tolerance. Once upon
+        a time, I hosted a podcast,{" "}
         <a
           class="italic underline"
           rel="noreferrer"
@@ -40,15 +35,9 @@ const About = () => (
         </a>
         ! Check it out! It was about having conversations with my awesome guests
         about their life stories revolving around a topic related to personal
-        growth and philosphy. I am working on something new, so stay tuned!👀 
-        
-        I enjoy reading about philosphy, and I write about
-        it in my{" "}
-        <Link class="underline" to="/blog/">
-          blog
-        </Link>{" "}
-        (coming soon!). My biggest dream is to climb many mountains, and
-        complete the{" "}
+        growth and philosophy. I enjoy reading about philosophy, but I am not sure
+        if I quite understand what I read... My biggest dream is to be a
+        mountaineer, and complete the{" "}
         <a
           class="underline"
           rel="noreferrer"
@@ -57,34 +46,51 @@ const About = () => (
         >
           Explorers Grand Slam
         </a>{" "}
-        Challenge. My life goal is to become a teacher or mentor for someone. I feel like everyday
-        I am getting closer to this goal. 
-        
-        If you like to chat use the{" "}
+        Challenge. My life goal is to become a teacher. I feel like everyday I
+        am getting closer to this goal! If you like to chat use the{" "}
         <Link class="underline" to="/contact/">
           contact page
         </Link>
         .<br></br>
         <br></br>
-        <span class="font-bold">tl;dr</span> cs. code. philosophy. learning.
-        music. mountaineering. mentorship. inspire.
+        <span class="font-bold">tl;dr</span> Omid. cs @ Michigan. code.
+        philosophy. learning. music. mountaineering. mentorship.
       </p>
     </div>
 
     <h1 class="text-primary text-4xl tracking-tight mt-6">I am...</h1>
-    {/* FIXME: Activity component issues */}
-    {/* TODO: Add Spotify Component */}
     <Activity
       symbol="🎒"
-      text="Studying CS x DS @ University of Michigan (BSE '23)"
+      text="Studying CS @ University of Michigan (BSE '23)"
     ></Activity>
-    <Activity symbol="💻" text="Working on personal" to="/projects/">
+    <Activity
+      symbol="💻"
+      text="Contributing to open-source"
+      to="https://github.com/apache/impala"
+    >
       projects
     </Activity>
-    <Activity symbol="🌌" text="IAing for" to="https://eecs280staff.github.io/eecs280.org">eecs 280</Activity>
-    <Activity symbol="🎧" text="Jamming to" special="music"></Activity>
-    <Activity symbol="📗" text="I need a good book right now..."></Activity>
-    <Activity symbol="🎹" text="Learning to DJ and make electronic music"></Activity>
+    <Activity
+      symbol="🌌"
+      text="IAing for eecs 482 (Intro to Operating Systems)
+      "
+    ></Activity>
+    <Activity
+      symbol="🎧"
+      text="Jamming to"
+      to="https://open.spotify.com/playlist/3cfyMD0hledGVaJTBPQnUX?si=acbd281437bf4faa"
+    >
+      {" "}
+      music{" "}
+    </Activity>
+    <Activity
+      symbol="📗"
+      text="Reading Le Petit Prince (The Little Prince)"
+    ></Activity>
+    <Activity
+      symbol="🎹"
+      text="Learning about playing the piano, playing the persian santur, and music theory"
+    ></Activity>
   </Layout>
 )
 
