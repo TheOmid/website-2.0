@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           <main class="overflow-hidden">{children}</main>
         </div>
       </div>
+      {/* FIXME: footer does not stick to the relative end of the page */}
       <footer class="bg-accent-1 border-t border-accent-2 bg-footer flex-shrink-0 py-4 text-center tracking-tight">
         <div class="flex justify-center items-center mb-2">
           <a
